@@ -9,7 +9,7 @@ from transformers import (DistilBertTokenizerFast,
                           TrainingArguments)
 
 #load
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\activity\D5.1\archive\train.csv").sample(
+df = pd.read_csv(r"archive\movie_review_train.csv").sample(
     1000, random_state=42)
 
 #split
