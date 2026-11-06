@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 from collections import Counter
 from nltk.stem import WordNetLemmatizer
 
-tr=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\advance data science\D5.1\archive\test.csv")
+tr=pd.read_csv(r"archive\movie_review_test.csv")
 
 #for spelling
 ss = SymSpell(max_dictionary_edit_distance=2)
